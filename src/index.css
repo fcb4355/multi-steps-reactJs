@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+   --primary-color:#0095ff;
+   --bg-color:#E5E7EB;
+}
+
+body{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: var(--bg-color);
+   @apply font-poppins;
+}
+
+.form-container{
+   width: 600px;
+}
+
+.form-container form.form{
+   background-color: #fff;
+}
